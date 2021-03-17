@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 public class SpringBootMtntwoApplication {
 	
+	@RequestMapping("/")
+	@ResponseBody
+	public String helloWorld() {
+		return "HELLO WORLD!!";
+	}
+	
+	
 	@RequestMapping("/{name}")
 	@ResponseBody
 	public String helloName (@PathVariable("name") String name) {
