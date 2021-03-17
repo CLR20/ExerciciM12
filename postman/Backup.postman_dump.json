@@ -1,0 +1,196 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "2716ebe0-aaaf-4b9d-9d52-cec0ac9f8287",
+			"uid": "0-2716ebe0-aaaf-4b9d-9d52-cec0ac9f8287",
+			"name": "milestone1",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"b0b5f20d-a53c-4c0f-87fb-04f47355713d",
+				"f76586d8-dbc7-4077-a4b2-7d35e768966d",
+				"9c2ba0a7-47a6-479f-b826-6084a3f8fedb"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2021-03-16T13:51:09.383Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "9c2ba0a7-47a6-479f-b826-6084a3f8fedb",
+					"uid": "0-9c2ba0a7-47a6-479f-b826-6084a3f8fedb",
+					"name": "local_helloName",
+					"url": "http://localhost:8080/Carol",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2716ebe0-aaaf-4b9d-9d52-cec0ac9f8287",
+					"pathVariables": {}
+				},
+				{
+					"id": "b0b5f20d-a53c-4c0f-87fb-04f47355713d",
+					"uid": "0-b0b5f20d-a53c-4c0f-87fb-04f47355713d",
+					"name": "restcountries_es",
+					"url": "https://restcountries.eu/rest/v2/lang/es",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2716ebe0-aaaf-4b9d-9d52-cec0ac9f8287",
+					"pathVariables": {}
+				},
+				{
+					"id": "f76586d8-dbc7-4077-a4b2-7d35e768966d",
+					"uid": "0-f76586d8-dbc7-4077-a4b2-7d35e768966d",
+					"name": "local_helloWorld",
+					"url": "http://localhost:8080/Carolina",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2716ebe0-aaaf-4b9d-9d52-cec0ac9f8287",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "f199430f-e88c-43da-8213-6d41ef77776d",
+			"uid": "0-f199430f-e88c-43da-8213-6d41ef77776d",
+			"name": "milestone1-fase3",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"e3c85af8-fe2a-4f59-b3ba-e38960fbca06",
+				"69dc2fcb-9993-441d-a646-27958fd74662"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2021-03-16T16:06:43.341Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "69dc2fcb-9993-441d-a646-27958fd74662",
+					"uid": "0-69dc2fcb-9993-441d-a646-27958fd74662",
+					"name": "local_helloName_f3",
+					"url": "{{IP}}:{{port}}/Carolina",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f199430f-e88c-43da-8213-6d41ef77776d",
+					"pathVariables": {}
+				},
+				{
+					"id": "e3c85af8-fe2a-4f59-b3ba-e38960fbca06",
+					"uid": "0-e3c85af8-fe2a-4f59-b3ba-e38960fbca06",
+					"name": "local_helloWorld_f3",
+					"url": "{{IP}}:{{port}}",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f199430f-e88c-43da-8213-6d41ef77776d",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "7ae6a854-ae16-48de-b119-f042033843af",
+			"name": "desenvolupament",
+			"values": [
+				{
+					"key": "IP",
+					"value": "dev.domain.com",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "e83b5c69-81b4-4cc5-9cb1-7c753c543ee2",
+			"name": "preproduccio",
+			"values": [
+				{
+					"key": "IP",
+					"value": "pre.domain.com",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "f8a33963-2407-423d-b05e-7edc942cff39",
+			"name": "local",
+			"values": [
+				{
+					"key": "IP",
+					"value": "localhost",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "8080",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "b18c8264-9777-4624-9df3-bab4bd863cdd",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
