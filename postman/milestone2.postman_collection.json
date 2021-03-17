@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "90424269-d68b-40f9-845e-e3e9aead6398",
+		"name": "milestone2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local_helloName_mtn2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/Caroline",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"Caroline"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
