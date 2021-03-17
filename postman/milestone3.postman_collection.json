@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "c7c7ed8e-c0cd-4d3f-b6ac-f7f629f16825",
+		"name": "milestone3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local_helloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "local_helloName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/Carolina",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"Carolina"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
